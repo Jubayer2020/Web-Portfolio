@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP';
+}
+h1{
+    font-size: 45px;
+    }
+.highlight-name{
+    color: rgb(207, 109, 207);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;s
+}
+.top-banner{
+    background-image: url("image2/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
