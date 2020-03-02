@@ -5,8 +5,21 @@ body{
 h1{
     font-size: 45px;
     }
+h2{
+    font-size: 30px;
+    
+ 
+    }
+
+ h3{
+
+ }
+     
+ p{
+     color: lightslategray;
+ } 
 .highlight-name{
-    color: rgb(207, 109, 207);
+    color: rgb(216, 187, 58);
 }
 .half-width{
     width: 40%;
@@ -15,7 +28,7 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 80%;s
+    width: 70%;
 }
 .top-banner{
     background-image: url("image2/top-banner.png");
@@ -24,4 +37,57 @@ h1{
 
 section{
     height: 500px;
+    padding-bottom: 200px;
+}
+.link{
+    background-image: linear-gradient(45deg, orange, red);
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: burlywood;
+}
+.resumi{
+    background-image: linear-gradient(65deg, rgb(209, 209, 56), rgb(236, 118, 118) );
+    color: rgb(209, 59, 184);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+
+}
+#dream{
+    color: blueviolet;
+}
+.Dream-area{
+    background-image: url(image2/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.info{
+    color: darkorange;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    height: 90%;
+    background-color: white;
+}
+.Experience-area{
+    background-image: url(Image2/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, yellow);
+    border-image-slice: 1;
+}
+#biginner{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
 }
