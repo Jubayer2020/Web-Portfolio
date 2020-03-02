@@ -7,17 +7,19 @@ h1{
     }
 h2{
     font-size: 30px;
-    
- 
     }
-
- h3{
-
+p{
+     color: rgb(43, 41, 41);
  }
-     
- p{
-     color: lightslategray;
- } 
+.introduction{
+    color: rgb(92, 151, 143);
+}
+.mydream{
+    color: brown;
+}
+.intro{
+    color: cornflowerblue;
+} 
 .highlight-name{
     color: rgb(216, 187, 58);
 }
